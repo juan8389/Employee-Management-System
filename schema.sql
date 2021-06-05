@@ -27,15 +27,15 @@ name VARCHAR(30) NOT NULL,
 );
 --  INSERTS FOR DEPARTMENT TABLE
 INSERT INTO department (id, name)
-VALUES (1, " Rabiah");
+VALUES (1, "Juan");
 INSERT INTO department (id, name)
-VALUES (2, "Tammy");
+VALUES (2, "MP");
 INSERT INTO department (id, name)
-VALUES (3, "Edna");
+VALUES (3, "William");
 INSERT INTO department (id, name)
-VALUES (4, "Irv");
+VALUES (4, "Rafael");
 INSERT INTO department (id, name)
-VALUES (5, "Diane");
+VALUES (5, "Liz");
 -- INSERTED VALUE IN ROLE TABLE
 INSERT INTO role (id, title, salary, department_id )
 VALUES (1, " manager",50000.00, 1);
@@ -50,13 +50,13 @@ VALUES (5, " student",10000.00, 5);
 -- INSERTED VALUE IN EMPLOYEE TABLE
 INSERT INTO employee (id, first_name, last_name,
   role_id,  manager_id)
-VALUES (1,"Rabiah", "Hogans", 1, 1);
+VALUES (1,"Juan", "Santoyo", 1, 1);
 INSERT INTO employee (id, first_name, last_name,
   role_id,  manager_id)
-VALUES (2,"Tammy", "Clark", 2, 2);INSERT INTO employee (id, first_name, last_name,
+VALUES (2,"MP", "Santoyo", 2, 2);INSERT INTO employee (id, first_name, last_name,
   role_id,  manager_id)
-VALUES (3,"Edna", "Johnson", 3, 3);INSERT INTO employee (id, first_name, last_name,
+VALUES (3,"Wiliam", "Navas", 3, 3);INSERT INTO employee (id, first_name, last_name,
   role_id,  manager_id)
-VALUES (4,"Irv", "Rockington", 4, 4);INSERT INTO employee (id, first_name, last_name,
+VALUES (4,"Rafael", "Hurtado", 4, 4);INSERT INTO employee (id, first_name, last_name,
   role_id,  manager_id)
-VALUES (5,"Diane", "White", 5, 5);
+VALUES (5,"Liz", "Hurtado", 5, 5);
